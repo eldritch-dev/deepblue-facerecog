@@ -63,7 +63,6 @@ class Signin extends React.Component {
                                 onChange={this.onPasswordChange}
                             />
                         </div>
-                        <label className="pa0 ma0 lh-copy f6 pointer"><input type="checkbox" /> Remember me</label>
                         </fieldset>
                         <div className="">
                         <input 
@@ -73,7 +72,7 @@ class Signin extends React.Component {
                         value="Sign in" />
                         </div>
                         <div className="lh-copy mt3">
-                        <p  onClick={() => onRouteChange('register')} className="f6 link dim black db pointer">Register</p>
+                        <p onClick={() => onRouteChange('register')} className="f6 link dim black db pointer">Register</p>
                         </div>
                     </div>
                 </main>
@@ -82,6 +81,7 @@ class Signin extends React.Component {
     }
 }
 
-/* <a href="#0" className="f6 link dim black db">forgot your password?</a> */
+/* <label className="pa0 ma0 lh-copy f6 pointer"><input type="checkbox" /> Remember me</label>
+<a href="#0" className="f6 link dim black db">forgot your password?</a> */
 
 export default Signin;
